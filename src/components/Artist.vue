@@ -13,6 +13,10 @@ export default {
 
 <style lang="stylus" scoped>
 li.artist
-  display block
-  margin 10px 0
+  display inline-block
+
+ul
+  display grid
+  grid-template-columns repeat(6,1fr)
+  grid-gap 1rem
 </style>
